@@ -64,6 +64,6 @@ The repository includes hands-on exercises and mini projects such as:
 
 ## Author
 
-**Prabhakar Bharti**
+**Pushp Raj Bharti**
 
 - GitHub: [@prbharti25](https://github.com/prbharti25)
