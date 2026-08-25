@@ -1,0 +1,94 @@
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.form-container {
+    background-color: #ffffff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(13, 13, 13, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+h1 {
+    text-align: center;
+    color: #363535;
+    margin-bottom: 20px;
+}
+ 
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+ 
+label {
+    font-size: 14px;
+    color: #555555;
+    margin-top: 10px;
+}
+
+input {
+    padding:10px;
+    font-size: 14px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    border-color: #007bff;
+}
+
+button {
+    background-color: #007bff;
+    color: #f8eeee;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#button1
+{
+    padding: 10px 30px ;
+}
+
+#button1:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+#button2
+{
+    background-color: rgb(233, 6, 6);
+}
+#button2:hover
+{
+    background-color: rgb(173, 2, 2);
+    color: white;
+}
+
+
+.button-container {
+    display: flex;
+    justify-content: center; 
+    gap: 50px; /* Optional: Adjust spacing between buttons */
+}
+
+
+/* button:active{   //when clicked: trigger
+    background-color: rgb(76, 112, 255);
+} */
+
+    

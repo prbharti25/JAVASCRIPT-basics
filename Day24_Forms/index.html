@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Student Registration Form</h1>
+        <form> 
+            <label for="first">User Name:</label>
+            <input type="text" id="first" name="FirstName" placeholder="Enter your first name">
+    
+            <label for="second">Last Name:</label>
+            <input type="text" id="second" name="LastName" placeholder="Enter your last name">
+
+            <label for="third">Age:</label>
+            <input type="number" id="third" name="Age" placeholder="Enter your age">
+
+            <div class="button-container">
+                <button id="button1" type="submit">Submit</button>
+                <button id="button2" type="reset">Reset</button>
+            </div>  
+            <!-- when submit button is inside form then on clicking, it submit the details and refreshes the page-->
+
+            <div id="result"></div>
+        </form>
+    </div>
+     
+    <script src="./first.js"></script>
+</body>
+</html>
+ 
