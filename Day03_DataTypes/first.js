@@ -18,49 +18,54 @@
 
 
 // function : we can assign a  function in a variable
-// let fun = function()
-// {
-//     console.log("Hello Coder Army!!");
-//     return "hi";
-// }
-// console.log(fun());  //typeof fun: function,  typeof func(): string ("hi")
+let fun = function()
+{
+    console.log("Hello Coder Army!!");
+    return "hi";
+}
+console.log(fun(), typeof(fun), typeof(fun()));  //typeof fun: function,  typeof func(): string ("hi")
+// Hello Coder Army!!
+// Hello Coder Army!!
+// hi function string
+
 
 
 // TYPE CONVERSION
-// let account_balance = "100";
-// console.log(account_balance);
-// console.log(typeof account_balance);
-// let num= Number(account_balance);
-// console.log(num);
-// console.log(typeof num);
+let account_balance = "100";
+console.log(account_balance); // 100
+console.log(typeof account_balance); // string
+let num= Number(account_balance); //convert into number
+console.log(num);
+console.log(typeof num);     //number
 
 // boolean to number
-// let bool=true;
-// console.log(typeof bool);
-// console.log(typeof Number(bool));
+let bool=true;
+console.log(typeof bool);
+console.log(typeof Number(bool));
 
 
 
 
-// let account="100xs"  
-// console.log(Number(account));  //NaN: not a number
+let account="100xs"  
+console.log(Number(account));  //NaN: not a number
 
-// let x=null;  //null
-// console.log(Number(x));     //0
+let x=null;  //null
+console.log(Number(x));     //0
 
-// let x2; //undefined
-// console.log(Number(x2));    //NaN
+let x2; //undefined
+console.log(Number(x2));    //NaN
 
-// let ab=20;  //number
-// console.log(String(ab));   // "20"
+let ab=20;  //number
+let str = String(ab);
+console.log(String(ab), typeof ab, typeof str);   // "20"
 
-// let ax=true;  //boolean
-// console.log(typeof ax);
-// console.log(String(ax));  //  "true"
+let ax=true;  //boolean
+console.log(typeof ax);
+console.log(String(ax));  //  "true"
 
-// let abc="";
-// abc = " ";  //true 
-// console.log(Boolean(abc));  // empty string gives --> false
+let abc="";
+abc = " ";  //true : the string is not empty anymore
+console.log(Boolean(abc));  // empty string gives --> false
 
 
 
@@ -68,7 +73,7 @@
 //Divide and Multiply --> Same Precedence left to right
 //  Addtion and Subtraction  -->Same precedence left to right
 
-console.log(6*3+18/6-9);    //12
+// console.log(6*3+18/6-9);    //12
 
 
 // console.log(20%3);  //2 (%) --> gives remainder
@@ -80,7 +85,7 @@ console.log(6*3+18/6-9);    //12
 // === --> type and value compare
 let sum=20;
 let sum1=++sum;
-console.log(sum++);
-console.log(sum1);
-console.log(sum); 
+console.log(sum++); //21 (sum = 22)
+console.log(sum1);  //21 (sum = 22)
+console.log(sum);  //22
 
