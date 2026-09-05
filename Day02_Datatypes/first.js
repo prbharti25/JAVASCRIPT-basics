@@ -24,12 +24,12 @@
 
 // null
 // let num2=null;
-// // console.log(num);
+// // console.log(num2);
 // console.log(typeof(num2));   //type: Object (error)
 
 // bigInt
 // let num=234567898765432345678909876543456789n;
-// console.log(num);
+// console.log(num2);
 // console.log(typeof(num));
 
 // Symbol??
