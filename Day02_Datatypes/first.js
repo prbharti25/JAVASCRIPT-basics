@@ -19,7 +19,7 @@
 
 // undefined
 // let num3;
-// // console.log(num);
+// // console.log(num3);
 // console.log(typeof(num3));
 
 // null
