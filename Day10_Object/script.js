@@ -29,7 +29,7 @@
 // };
 
 // console.log(obj.undefined, obj["undefined"], obj[undefined]);
-// console.log(obj.null, obj["null"]), obj[null];
+// console.log(obj.null, obj["null"], obj[null]);
 
 //  backend: KEY --> "name", "gender" ...etc are stored as string
 
@@ -54,37 +54,37 @@
 
 
 //third method to create object
-// class people
-// {
-//     constructor(name, age, gender)
-//     {
-//         this.name=name;
-//         this.age=age;
-//         this.gender=gender;
-//     }
-// }
+class people
+{
+    constructor(name, age, gender)
+    {
+        this.name=name;
+        this.age=age;
+        this.gender=gender;
+    }
+}
 
 // //  this. --> refers to per1, per2,...respectively
-// let per1= new people("Mohan", 20, "Male");  //we called from here(function) so this.name --> refers to the calling function
+let per1= new people("Mohan", 20, "Male");  //we called from here(function) so this.name --> refers to the calling function
 // // if (this.name) is not used then we can use per1.name, per1.age, per1.gender
 
-// let per2= new people("Shruti", 21, "Female");
+let per2= new people("Shruti", 21, "Female");
 // console.log(per1, per2);
 
 
 let obj=
 {
-    name:"Rohit",
-    age:30,
+    name:"Pushp",
+    age:21,
     gender:"Male",
-    account_bal: 23,
+    account_bal: 239283471375,
 };
 
-// const arr=Object.values(obj);   //returna array
-// const arr1=Object.keys(obj);    //returns array
+const arr=Object.values(obj);   //returns array of values
+const arr1=Object.keys(obj);    //returns array of keys
 // console.log(arr,arr1);
 
-// let arr2= Object.entries(obj);  //key values both
+let arr2= Object.entries(obj);  //key values both
 // console.log(arr2);
 
 
@@ -93,7 +93,7 @@ const obj1={a:1, b:2};
 const obj2={c:3, d:4};
 const obj5={m:35, n:37};
 
-const obj3= Object.assign({},obj1, obj2);   //combine:   {}target,  obj1, obj2--> source
+// const obj3= Object.assign({},obj1, obj2);   //combine:   {}target,  obj1, obj2--> source
 // const obj3= Object.assign(obj2, obj1);    //obj2 is target(also) now so change in obj2 occurs
 // console.log(obj3, obj2);
 // obj3.a=99;  //no change in obj1 as obj3 creates a copy

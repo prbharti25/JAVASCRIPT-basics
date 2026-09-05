@@ -1,7 +1,7 @@
-// const arr= [1,2,3,5,6,'Pushp', 'Rohit', true, 2.35]
+const arr= [1,2,3,5,6,'Pushp', 'Rohit', true, 2.35]
 // console.log(arr.length, arr);
 // console.log(typeof arr);
-// console.log(arr[7]);    //cannot take -ve values
+// console.log(arr[7]);    //this format: cannot take -ve values
 // console.log(typeof arr[7]);
 // console.log(arr.at(-1))  //Latest: can take -ve indeces
 
@@ -12,14 +12,14 @@
 // console.log(newarr);
 
 // arr.push(30);   //adds in the last
-// arr.pop();  //pop from last
+// // arr.pop();  //pop from last
 // console.log(arr);
 
 // //add element at start
 // arr.unshift(10);
 // console.log(arr);
 
-// //delete element fron start
+// //delete element from start
 // arr.shift()  //array shifts to the left
 // console.log(arr);
 
@@ -37,7 +37,7 @@
 // SLICE
 // console.log(arr);
 // console.log(typeof arr);
-// console.log(arr.slice(5,8));    //to cut those parts --> gives a new array
+// console.log(arr.slice(5,8));    //to cut those parts -->return this new array
 // console.log(arr);    //no change in original array
 // console.log(arr.splice(2,5));   //starting from 2nd index and upto 5 elements from there --> remove from original array
 // // console.log(arr);   //after using splice original array has been changed!!
