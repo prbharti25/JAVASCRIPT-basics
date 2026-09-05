@@ -65,14 +65,14 @@
 
 
 // Nested for loop
-// for(let i=0; i<6; i++)
-// {
-//     let string = "";
-//     for(let i=1; i<=5; i++){
-//         string+=i;
-//     }
-//     console.log(string);
-// }
+for(let i=0; i<6; i++)
+{
+    let string = "";
+    for(let i=2; i<=5; i++){
+        string+=i;
+    }
+    console.log(string);
+}
 
 
 
@@ -110,9 +110,9 @@ const obj=
 };
 // console.log(obj["name"], obj.name, obj[0], obj["0"]);
 
-// const a=Object.keys(obj);
-// const b=Object.values(obj);
-// console.log(a,b)
+const a=Object.keys(obj);
+const b=Object.values(obj);
+console.log(a,b)
 
 const key=Object.keys(obj);     //returns array
 // console.log(key);   //key: [ '0', 'name', 'age', 'amount', 'city' ]

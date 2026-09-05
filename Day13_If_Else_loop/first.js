@@ -2,9 +2,9 @@
 // Global scope, local scope(functional scope), block scope
 
 // GLOBAL SCOPE (outside)
-// let a=10;
-// var b=20;
-// const c=30;
+let a=10;
+var b=20;
+const c=30;
 
 // function call()
 // {
@@ -34,11 +34,11 @@ var amount=222;
 if(true)    //blocked scope {inside except function}
 {
     let a=10;
-    amount=385; 
+    // amount=385; 
     const c=30; 
     console.log(amount);
 }
-var amount=230;
+var amount=23234;
 // console.log(amount);
 
 // console.log(a);  //error
@@ -57,13 +57,14 @@ if(true)
 }
 // In case of global scope: we cannot re-declare two variables of same name (for let, const only)
 // let price=32; //error
-// console.log(price);
+console.log(price);
 
 
 // console.log(amounta);   //error: local scoped
 // let amounta=20;
 // console.log(b);    //error: local scoped
 // const b=30;
+
 // console.log(c); //undefined   
 // var c=20;    //since globally scoped
 
@@ -74,7 +75,7 @@ function greet()
     console.log("hello greet")
 }
 
-// meet();  //error
+meet();  //error
 const meet=function()
 {
     console.log("Hello meet");
