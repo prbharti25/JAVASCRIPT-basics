@@ -30,9 +30,9 @@
 
 
 // console.log(Math.floor(Math.random()*10)+1); //1-10   
-// console.log(Math.ceil(Math.random()*10));    // from 1 to 10
+// console.log(Math.ceil(Math.random()*10));    // from 0 to 10
 // console.log(Math.floor(Math.random()*11+40));   //min=40 to max=50 give me a random number in between, 11? --> *(max-min+1) multiplier   
-// console.log(Math.ceil(Math.random()*11+39));     //or method
+// console.log(Math.ceil(Math.random()*11+39));     //or method(not identical exactly)
 
 // console.log(Math.floor(Math.random()*6+6));     //6-11
 // Math.random() --> cannot be used to generate OTP since it is not random, there is some algorithm behind it that

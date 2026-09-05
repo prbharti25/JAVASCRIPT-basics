@@ -8,17 +8,17 @@
 // let price=12346;
 // console.log(`The price of the good is ${price}.`);
 
-// // string concatenation
-// let s1="Hello Cod";
-// let s2="er Army";
-// s3=s1+s2;
-// console.log(s3);
-// console.log(s3.length);
+// string concatenation
+let s1="Hello Cod";
+let s2="er Army";
+s3=s1+s2;
+console.log(s3);
+console.log(s3.length);
 
 
-// console.log("`hello coder`")
-// let message="'Today is Tuesday'. \n'Tomorrow is Wednesday'";
-// console.log(message);
+console.log("`hello coder`")
+let message="'Today is Tuesday'. \n'Tomorrow is Wednesday'";
+console.log(message);
 
 // // Escape character: \  print the characters just after escape character as it is
 // let message="Today is Tuesday. \n\\nTomorrow is Wednesday";
@@ -44,19 +44,19 @@
 // console.log(honda)
 
    //from left  // 012345 6789...
-// let newstr="pulsar hello pulsar"
+let newstr="pulsar hello pulsar"
 // -12 -11 -10 -9 -8 -7 -6 -5 -4 -3 -2 -1   (from right)
-// console.log(newstr.slice(0,10));  //slice can take negative indeces unlike substring
-// console.log(newstr.slice(-11,12));  // starting string, ending string
-// console.log(newstr.substring(0,4)) //substring and slice perform same operation.
-// console.log(newstr.substr(0, 11));
+console.log(newstr.slice(0,10));  //slice can take negative indeces unlike substring
+console.log(newstr.slice(-11,12));  // starting string, ending string
+console.log(newstr.substring(0,4)) //substring and slice perform same operation(nearly).
+console.log(newstr.substr(0, 11));
 
-// console.log(newstr.replace("pulsar", "hike"));
-// console.log(newstr.replaceAll("pulsar", "nike"));
+console.log(newstr.replace("pulsar", "hike"));
+console.log(newstr.replaceAll("pulsar", "nike"));
 
-// let str11="  Money! Honey! Bunny! Funny!  ";
-// console.log(str11.length);
-// console.log(str11.split("! ")) //converted into array on the given basis
+let str11="  Money! Honey! Bunny! Funny!  ";
+console.log(str11.length);
+console.log(str11.split("! ")) //converted into array on the given basis
 
 // console.log(str11.trim().length);   //starting and end spaces are trimmed
 
