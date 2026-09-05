@@ -29,7 +29,7 @@
 
 // bigInt
 // let num=234567898765432345678909876543456789n;
-// console.log(num2);
+// console.log(num);
 // console.log(typeof(num));
 
 // Symbol??
@@ -37,5 +37,5 @@
 console.log(Number.MAX_SAFE_INTEGER); 
 console.log(Number.MIN_SAFE_INTEGER);
 
-// console.log(str="pushp");
+console.log(str="pushp");
 
